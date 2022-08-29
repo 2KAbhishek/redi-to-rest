@@ -1,0 +1,33 @@
+{
+  "name": "redi-to-rest",
+  "version": "1.0.0",
+  "description": "A rest API built with redis",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "redis-om": "^0.1.3"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2kabhishek/redi-to-rest.git"
+  },
+  "keywords": [
+    "redis",
+    "rest.api",
+    "express",
+    "node"
+  ],
+  "author": "2kabhishek",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/2kabhishek/redi-to-rest/issues"
+  },
+  "homepage": "https://github.com/2kabhishek/redi-to-rest#readme"
+}
