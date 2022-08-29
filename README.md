@@ -20,29 +20,23 @@
 <a href="https://github.com/2KAbhishek/redi-to-rest/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/redi-to-rest?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "images/screenshot.png" alt="redi-to-rest Demo">
-  <br/>
-  <figcaption>redi-to-rest screenshot</figcaption>
-</figure>
+<h3>REST API with Redis 📭🍎</h3>
 
 </div>
 
 ## What is this
 
-redi-to-rest is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+A REST API built with Node to demonstrate Redis persistence.
 
 ## Inspiration
 
-redi-to-rest was inspired by `<reason/idea>`.
+Was learning about redis persistence, wanted to try it out.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `node and redis`
 
 ## Getting redi-to-rest
 
@@ -51,51 +45,23 @@ To get redi-to-rest, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/redi-to-rest
 cd redi-to-rest
-<install_command>
 ```
 
 ## Using redi-to-rest
 
 ```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+cp .env.example .env
+$EDITOR .env #Set the REDIS_URL env to your redis instance
+npm start
 ```
 
 ## How it was built
 
-redi-to-rest was built using `<tech/library>`
-
-## Challenges faced
-
-While building redi-to-rest the main challenges were `<issue/difficulty>`
+redi-to-rest was built using `neovim`
 
 ## What I learned
 
-While building redi-to-rest I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Learned about redis ecosystem.
 
 Hit the ⭐ button if you found this useful.
 
